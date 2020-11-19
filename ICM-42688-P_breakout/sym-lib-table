@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ICM-42688-P_breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/ICM-42688-P_breakout-rescue.lib)(options "")(descr ""))
+)
