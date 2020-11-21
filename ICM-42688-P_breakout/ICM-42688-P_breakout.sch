@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "ICM-42688-P_breakout"
+Date "2020-11-21"
+Rev "V1.0.0"
+Comp "teTra Aviation Corp."
+Comment1 "First test version"
+Comment2 "Presented by Y. Nakagawa"
 Comment3 ""
 Comment4 ""
 $EndDescr
