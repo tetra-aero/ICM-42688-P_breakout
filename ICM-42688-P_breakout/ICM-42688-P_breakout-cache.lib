@@ -1,11 +1,55 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# LibraryLoader_ICM-42688-P
+# Connector_Conn_01x04_Female
 #
-DEF LibraryLoader_ICM-42688-P IC 0 30 Y Y 1 F N
+DEF Connector_Conn_01x04_Female J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x04_Female" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ICM-42688-P_breakout-rescue_ICM-42688-P-LibraryLoader
+#
+DEF ICM-42688-P_breakout-rescue_ICM-42688-P-LibraryLoader IC 0 30 Y Y 1 F N
 F0 "IC" 2050 1500 50 H V L CNN
-F1 "LibraryLoader_ICM-42688-P" 2050 1400 50 H V L CNN
+F1 "ICM-42688-P_breakout-rescue_ICM-42688-P-LibraryLoader" 2050 1400 50 H V L CNN
 F2 "QFN50P300X250X97-14N" 2050 1300 50 H I L CNN
 F3 "https://product.tdk.com/info/en/documents/catalog_datasheet/imu/DS-000347-ICM-42688-P-v1.2.pdf" 2050 1200 50 H I L CNN
 F4 "Single Interface Motion Tracking Device Digital Output 1.8V 14-Pin LGA T/R" 2050 1100 50 H I L CNN "Description"
