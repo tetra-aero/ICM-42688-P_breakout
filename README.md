@@ -2,6 +2,8 @@
 ICM-42688-P breakout board 
 
 ## Reference
+1. https://product.tdk.com/ja/search/sensor/mortion-inertial/imu/info?part_no=ICM-42688-P
+2. https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ds-000347-icm-42688-p-v1.2.pdf
 
 ## Board
 ### Top
